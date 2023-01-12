@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/badou/Documents/fooderlich/ios/Runner/GeneratedPluginRegistrant.m \
+  /Users/badou/Documents/fooderlich/ios/Runner/GeneratedPluginRegistrant.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Modules/module.modulemap \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterViewController.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterHeadlessDartRunner.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterEngineGroup.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterEngine.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterDartProject.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterCallbackCache.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterTexture.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterPlatformViews.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterCodecs.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterChannels.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterBinaryMessenger.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterPlugin.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterMacros.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/FlutterAppDelegate.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/Flutter.framework/Headers/Flutter.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/path_provider_ios/path_provider_ios.framework/Headers/FLTPathProviderPlugin.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/path_provider_ios/path_provider_ios.framework/Modules/module.modulemap \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/path_provider_ios/path_provider_ios.framework/Headers/messages.g.h \
+  /Users/badou/Documents/fooderlich/build/ios/Debug-iphonesimulator/path_provider_ios/path_provider_ios.framework/Headers/path_provider_ios-umbrella.h

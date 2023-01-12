@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "d284cb3aa0f704f19e3eb278fe93c21258f8da3eb42bc139c0061c2b4cac396d"
+build_start_time: [1673514614, 521987915]
+build_end_time: [1673514614, 609318017]
+inputs:
+  "/Users/badou/Documents/fooderlich/ios/Runner/AppDelegate.swift": !private [1663069246, 0]
