@@ -4,11 +4,40 @@ import '../api/mock_fooderlich_service.dart';
 import '../components/components.dart';
 import '../models/models.dart';
 
-class ExploreScreen extends StatelessWidget {
+class ExploreScreen extends StatefulWidget {
+  ExploreScreen({super.key});
+
+  @override
+  State<ExploreScreen> createState() => _ExploreScreenState();
+}
+
+class _ExploreScreenState extends State<ExploreScreen> {
+  late ScrollController _controller;
+
   // 1
   final mockService = MockFooderlichService();
 
-  ExploreScreen({super.key});
+  void _scrollListener() {
+    // 1
+    if (_controller.offset >= _controller.position.maxScrollExtent &&
+        !_controller.position.outOfRange) {
+      print('i am at the bottom!');
+      print('i am at the bottom!');
+    }
+// 2
+    if (_controller.offset <= _controller.position.minScrollExtent &&
+        !_controller.position.outOfRange) {
+      print('i am at the top!');
+    }
+  }
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    _controller = ScrollController();
+    _controller.addListener(_scrollListener);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -24,16 +53,17 @@ class ExploreScreen extends StatelessWidget {
           // 5
           final recipes = snapshot.data?.todayRecipes ?? [];
           // TODO: Replace this with TodayRecipeListView
-          return ListView(scrollDirection: Axis.vertical, children: [
-            TodayRecipeListView(recipes: recipes),
-            const SizedBox(height: 16),
-            // 9
-            // TODO: Replace this with FriendPostListView
-            Container(
-              height: 400,
-              color: Colors.green,
-            ),
-          ]);
+          return ListView(
+            scrollDirection: Axis.vertical,
+            controller: _controller,
+            children: [
+              TodayRecipeListView(recipes: recipes),
+              const SizedBox(height: 16),
+              // 9
+              // TODO: Replace this with FriendPostListView
+              FriendPostListView(friendPosts: snapshot.data?.friendPosts ?? []),
+            ],
+          );
         } else {
 // 6
           return const Center(
