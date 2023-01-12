@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'screens/plore_screen.dart';
+import 'screens/explore_screen.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
